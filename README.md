@@ -9,11 +9,13 @@ Key: i2zw
 ## Data Augmentation
 
 `python data_augment.py`
+
 output: `./img`
 
 ## Train
 
 `python train.py -net resnet18 -gpu -method none/cutout/cutmix/mixup `
+
 output: 
 `./checkpoint`
 `./runs`
